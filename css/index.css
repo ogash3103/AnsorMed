@@ -146,11 +146,60 @@
   background-color: #fff;
   color: #de2e54;
 }
+.main-link-hero:hover
+{
+  border-color:transparent;
+  background-color:  rgba(222, 46, 84, 0.8);
+  color:#fff;
+}
+.main-link-hero:hover
+{
+  background-color:  rgba(222, 46, 84, 0.6);
+  opacity: 1;
+
+}
 .main-link:active{
   opacity: 0.6;
   background-color: #de2e54;
   color: #fff;
 }
+/* hero */
+ .hero
+ {
+  background-color: #0EB4C1;
+  color:#fff;
+ }
+ .hero-container
+ {
+  display: flex;
+  justify-content: space-between;
+ }
+ .hero-content
+ {
+  width: 500px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+ }
+ .hero-heading{
+  font-family: "Open Sans" ,"Arial" , sans-serif;
+  font-size: 36px;
+  line-height: 1.2;
+  margin-top: 0;
+  margin-bottom: 16px;
+ }
+ .horo-text
+ {
+  width: 440px;
+  margin-top: 0;
+  margin-bottom: 36px;
+ }
+ .hero-img
+ {
+ align-self: flex-end;
+ }
+
+
+/* hero end */
 
 /* site footer */
 
