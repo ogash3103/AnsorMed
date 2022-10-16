@@ -9,6 +9,9 @@
   outline: 2px dotted #de2e54;
   outline-offset: 2px;
  }
+ html{
+  scroll-behavior: smooth;
+ }
  body
  {
   margin: 0;
@@ -163,6 +166,18 @@
   background-color: #de2e54;
   color: #fff;
 }
+
+.main-link-outline
+{
+  border-color: #fff;
+  background-color: transparent;
+  color:#fff;
+}
+.main-link-outline:hover{
+  border-color: transparent;
+  background-color: #de2e54;
+  color:#fff ;
+}
 /* hero */
  .hero
  {
@@ -267,6 +282,34 @@
 
 /* index servces end */
 
+
+/* cta start */
+
+.cta{
+  padding-top: 64px;
+  padding-bottom: 64px;
+  background-color: #0EB4C1;
+  color: #fff;
+}
+.cta-heading{
+  margin-top: 0;
+  margin-bottom: 40px;
+  font-family: "Open Sans" "Arial" , sans-serif;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+}
+.cta-links
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cta-links-item:not(:last-child)
+{
+  margin-right: 40px;
+}
+/* cta end */
 
 /* site footer */
 
